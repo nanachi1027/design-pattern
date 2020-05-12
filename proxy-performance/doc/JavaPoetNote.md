@@ -101,5 +101,5 @@ public class JavaPoetDemo {
 * `N` represents Names for variants declared inside a class/interface created by `TypeSpec` by JavaPoet.
 
 #### UML of this module shown as below
-![uml image](https://github.com/nanachi1027/JavaProxyTutorial/blob/master/proxy-performance/doc/uml.png)
+![uml image](https://raw.githubusercontent.com/nanachi1027/JavaProxyTutorial/master/proxy-performance/doc/uml.png)
 
