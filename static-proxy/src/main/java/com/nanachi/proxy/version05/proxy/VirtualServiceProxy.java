@@ -10,21 +10,46 @@ public class VirtualServiceProxy implements Service {
     public ServiceStrategyFactory strategyFactory;
 
     private VirtualServiceProxy(Builder builder) {
-        // serviceFactory = builder.serviceFactory;
-        // strategyFactory = serviceFactory.serviceStrategy;
+        serviceFactory = builder.serviceFactory;
+        strategyFactory = builder.serviceStrategyFactory;
+    }
+
+    public static Builder newBuilder() {
+        return new Builder();
+    }
+
+    public static Builder newBuilder(VirtualServiceProxy copy) {
+        Builder builder = new Builder();
+        builder.serviceStrategyFactory = copy.strategyFactory;
+        builder.serviceFactory = copy.serviceFactory;
+        return builder;
     }
 
     @Override
     public String doAction(String msg) {
-        return null;
+        return strategyFactory.realSubject(serviceFactory).doAction(msg);
     }
 
     public static final class Builder {
+        private ServiceFactory serviceFactory;
+        private ServiceStrategyFactory serviceStrategyFactory;
+
+        private Builder() {
+
+        }
+
+        public Builder withServiceFactory(ServiceFactory serviceFactory) {
+            this.serviceFactory = serviceFactory;
+            return this;
+        }
+
+        public Builder withServiceStrategyFactory(ServiceStrategyFactory strategyFactory) {
+            this.serviceStrategyFactory = strategyFactory;
+            return this;
+        }
+
         public VirtualServiceProxy build() {
             return new VirtualServiceProxy(this);
         }
-
     }
-
-
 }
