@@ -12,5 +12,6 @@
         <module>static-proxy</module>
         <module>proxy-performance</module>
         <module>dynamic-proxy</module>
+        <module>java-reflect</module>
     </modules>
 </project>
