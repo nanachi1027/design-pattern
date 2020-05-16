@@ -1,2 +1,0 @@
-com.nanachi.proxy.processors.VirtualProxyAnnotationProcessor
-com.nanachi.proxy.processors.VirtualProxyNotThreadSafeAnnotationProcessor
