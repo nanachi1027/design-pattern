@@ -1,0 +1,15 @@
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/adapters/MethodIdentifier.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/adapter/OriginalBehaviorAdapter.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/adapter/App.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/adapters/IsDynamicObjectAdapter.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/adapters/DynamicObjectAdapterBuilder.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/services/ServiceImpl.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/adapters/ExtendedInvocationHandler.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/adapter/IOriginBehaviors.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/adapter/BehaviorCaller.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/adapters/IsObjectAdapter.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/App.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/services/Service.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/proxy/dynamic/adapters/AdapterBuilder.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/adapter/impl/NewBehaviorsImpl.java
+/Users/nanachi/Community/design-pattern/DesignPatternInJava/dynamic-proxy/src/main/java/com/nanachi/adapter/INewBehaviors.java

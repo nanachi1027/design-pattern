@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>JavaProxyTutorial</artifactId>
+    <artifactId>DesignPatternInJava</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -13,5 +13,6 @@
         <module>proxy-performance</module>
         <module>dynamic-proxy</module>
         <module>java-reflect</module>
+        <module>ObserverPattern</module>
     </modules>
 </project>

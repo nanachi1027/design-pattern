@@ -1,0 +1,13 @@
+com/nanachi/proxy/annotations/Delegator.class
+com/nanachi/proxy/services/Service.class
+com/nanachi/proxy/annotations/VirtualProxy.class
+com/nanachi/proxy/services/ServiceImpl.class
+com/nanachi/proxy/annotations/IsDelegator.class
+com/nanachi/proxy/processors/VirtualProxyNotThreadSafeAnnotationProcessor.class
+com/nanachi/proxy/annotations/VirtualProxyNotThreadSave.class
+com/nanachi/proxy/processors/VirtualProxyAnnotationProcessor.class
+META-INF/services/javax.annotation.processing.Processor
+META-INF/services/java.lang.Process
+com/nanachi/proxy/annotations/IsVirtualProxy.class
+com/nanachi/proxy/processors/DelegatorAnnotationProcessor.class
+com/nanachi/proxy/processors/BasicAnnotationProcessor.class
