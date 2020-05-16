@@ -1,2 +1,2 @@
-# JavaProxyTutorial
-How to use java proxy effectively
+# Java Design Pattern 
+Implement Head First Pattern codes
